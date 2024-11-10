@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import styles from './Netflix.module.css'
+import styles from './Netflix.module.css';
+import { useNavigate } from 'react-router-dom';
+import PageAccount from './PageAccount';
 
 function AvatarHeader(props) {
     const [searchOpen, setSearchOpen] = useState(false);
@@ -13,8 +15,15 @@ function AvatarHeader(props) {
       const inputChange = (e) => {
         setQuery(e.target.value);
       };
+
+      const navigate = useNavigate();
+
+      const handleImageClick = () => {
+        navigate('/account');
+      };
+
     
-      if(props.login){
+    if(props.login){
     return (
         <div className={styles.avatar}>
             <div className={styles.search}>
@@ -24,7 +33,7 @@ function AvatarHeader(props) {
                 <input type="text" value={query} onChange={inputChange} placeholder="Search" className={styles.inputSearch} />
             )}
             
-            <img className={styles.imgAvatar} src='/avatar.png' alt='avatar'></img>
+            <img className={styles.imgAvatar} src='/avatar.png' alt='avatar' onClick={handleImageClick}></img>
         </div>
     );
   }
