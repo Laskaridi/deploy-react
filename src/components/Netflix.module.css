@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.background{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+.header{
+display: flex;
+padding-top: 20px;
+margin-bottom: 90px;
+}
+.data{
+width: 50%;
+display: flex;
+justify-content: flex-start;
+padding-left: 40px;
+align-items: center;
+margin-top: 28px;
+margin-bottom: 30px;
+}
+.imgLogo{
+width: 156px;
+height: 48.33px;
+padding-right: 56px;
+
+}
+.data h3{
+color: rgb(200, 200, 200);
+font-family: Inter;
+font-size: 24px;
+font-weight: 400;
+line-height: 29px;
+padding-left: 26px;
+}
+.border{
+width: 30px;
+border: 1px solid white;
+transform: rotate(90deg);
+}
+.avatar{
+width: 50%;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+padding-right: 50px;
+}
+.iconHeader{
+width: 40px;
+height: 30px;
+color: white;
+padding-right: 35px;
+}
+.inputSearch{
+border-radius: 5px;
+font-size: 18px;
+padding: 10px;
+margin-right: 20px;
+}
+.loginButton{
+height: 50%;
+color: white;
+background-color: blue;
+padding: 8px 20px 10px;
+font-size: 20px;
+position: relative;
+top: 30px;
+left: 750px;
+}
+.imgAvatar{
+width: 8%;
+}
+.sticker{
+display: flex;
+position: fixed;
+width: 174px;
+height: 66px;
+right: 0px;
+top: 750px;
+}
+.stkLeft{
+width: 19%;
+height: 100%;
+background: rgb(213, 13, 31);
+}
+.stkRight{
+    width: 81%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.count{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 141.52%;
+position: relative;
+top: 15px;
+left: 43px;
+text-decoration: none;
+}

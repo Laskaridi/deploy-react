@@ -1,0 +1,106 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.content{
+    width: 54.92%;
+    background-color: none;
+    margin-left: 40px;
+}
+.genres{
+    display: flex;
+    column-gap: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    list-style-type: none;
+    margin: -35px 0 -20px -35px;
+}
+.genreItem{
+    border-right: 2px solid white;
+    padding-right: 20px;
+}
+.genreItem:last-child{
+    border: none;
+}
+.contentTitle{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 64px;
+font-weight: 800;
+text-align: left;
+letter-spacing: 5px;
+margin: 30px 0;
+}
+.infoData{
+    color: gray;
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 400;
+    display: flex;
+    column-gap: 20px;
+    margin-top: -10px;
+    margin-bottom: -13px;
+}
+.infoKey{
+    color: white;
+}
+.paragInfo{
+    width: 78%;
+    color: rgb(167, 166, 166);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 29px;
+text-align: left;
+
+}
+.rating{
+    height: 27px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.streamButton{
+width: 27%;
+border-radius: 10px;
+background-color: rgb(213, 13, 31);
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 141.52%;
+border: none;
+margin-top: 20px;
+margin-right: 90px;
+padding: 12px 0 15px;
+}
+.episodesButton{
+width: 27%;
+box-sizing: border-box;
+border: 3px solid rgb(255, 255, 255);
+border-radius: 10px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 141.52%;
+background: none;
+padding: 15px 0;
+}
+.iconPlay{
+    height: 30px;
+    position: relative;
+    top: 3px;
+    left: 15px;
+}
+.titleSlider{
+width: 342px;
+height: 26px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 22px;
+font-weight: 800;
+padding-top: 0px;
+}
