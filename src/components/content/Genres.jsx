@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Content.module.css';
 
-function Genres(props) {
+function Genres() {
     let genres = ['Drama', 'Thriller', 'Supernatural'];
     return (
         <div>

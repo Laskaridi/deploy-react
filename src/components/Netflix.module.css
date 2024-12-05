@@ -3,13 +3,14 @@
 
 .background{
     width: 100vw;
-    height: 100vh;
+    height: auto;
     background-image: url("/bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
 }
 .header{
+width: 100vw;
 display: flex;
 padding-top: 20px;
 margin-bottom: 90px;
@@ -62,14 +63,13 @@ padding: 10px;
 margin-right: 20px;
 }
 .loginButton{
-height: 50%;
 color: white;
 background-color: blue;
 padding: 8px 20px 10px;
 font-size: 20px;
-position: relative;
-top: 30px;
-left: 750px;
+position: absolute;
+top: 50px;
+right: 40px;
 }
 .imgAvatar{
 width: 8%;
@@ -102,4 +102,109 @@ position: relative;
 top: 15px;
 left: 43px;
 text-decoration: none;
+}
+
+
+@media(min-width:1100px)and 
+      (max-width:1400px){
+    .data{
+        margin-right: 20px;
+        width: 70%;
+    }
+    .avatar{
+        width: 30%;
+    }
+    .imgAvatar{
+        width: 20%;
+    }
+    .inputSearch{
+        position: absolute;
+        top: 120px;
+        right: 0px;
+    }
+    .sticker{
+       z-index: 10;
+    }
+}
+
+
+
+@media(min-width:800px)and 
+      (max-width:1100px){
+    .data{
+        margin-right: 20px;
+        width: 70%;
+    }
+    .avatar{
+        width: 30%;
+    }
+    .imgAvatar{
+        width: 30%;
+    }
+    .inputSearch{
+        position: absolute;
+        top: 120px;
+        right: 0px;
+    }
+    .sticker{
+       top: 650px;
+       z-index: 10;
+    }
+}
+
+
+
+@media(min-width:500px)and 
+      (max-width:800px){
+    .data{
+        margin-right: 20px;
+    }
+    .data h3, .border{
+       display: none;
+    }
+    .imgAvatar{
+        width: 20%;
+    }
+    .inputSearch{
+        position: absolute;
+        top: 120px;
+        right: 0px;
+    }
+    .sticker{
+        width: 100px;
+        height: 45px;
+    }
+    .count{
+        font-size: 20px;
+        top: 10px;
+        left: 25px;
+    }
+}
+
+
+
+@media(max-width:500px){
+    .data{
+        margin-right: 20px;
+    }
+    .data h3, .border{
+       display: none;
+    }
+    .imgAvatar{
+        width: 50%;
+    }
+    .inputSearch{
+        position: absolute;
+        top: 110px;
+        right: 0px;
+    }
+    .sticker{
+        width: 100px;
+        height: 45px;
+    }
+    .count{
+        font-size: 20px;
+        top: 10px;
+        left: 25px;
+    }
 }

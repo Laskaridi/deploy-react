@@ -3,7 +3,7 @@ import AvatarHeader from './AvatarHeader';
 import DataHeader from './DataHeader';
 import styles from './Netflix.module.css';
 
-function Header(props) {
+function Header() {
     let isLogin = true;
     return (
         <>
